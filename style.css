@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #cccccc;
+
+}
+
+
+
+form{
+    max-width: 320px;
+    width: auto;
+    height: 240px;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 10px;
+}
+form label{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+form input[type=password]{
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+form ul.helper_text{
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+
+form ul.helper_text li.valid{
+    color: #1AB23E;
+    text-decoration: line-through;
+}
+form .valid input{
+border: 2px solid #1fd34a;
+}
